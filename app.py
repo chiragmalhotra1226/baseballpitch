@@ -1,4 +1,3 @@
-import setup_mediapipe  # Pre-download mediapipe models to /tmp before anything loads
 import tempfile
 import os
 import cv2
