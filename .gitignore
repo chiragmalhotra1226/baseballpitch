@@ -1,12 +1,7 @@
-cat > .gitignore << 'EOF'
 venv/
 .venv/
 __pycache__/
 *.pyc
 .env
-models/
 data/
-*.joblib
 .DS_Store
-EOF
-__init__.py 
