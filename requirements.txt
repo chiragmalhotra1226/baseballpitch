@@ -1,10 +1,8 @@
-fastapi
-uvicorn
 streamlit
-mediapipe==0.10.9
-opencv-python
+mediapipe==0.10.21
+opencv-python-headless
 moviepy
-numpy
+numpy<2
 pandas
 scikit-learn
 xgboost
@@ -14,3 +12,4 @@ plotly
 python-dotenv
 google-genai
 pillow
+protobuf>=4.25.3,<5
