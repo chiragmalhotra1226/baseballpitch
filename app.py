@@ -1,3 +1,4 @@
+import setup_mediapipe
 import tempfile
 import os
 import cv2
