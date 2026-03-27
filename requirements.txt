@@ -1,6 +1,7 @@
 # OpenCV MUST come before mediapipe — mediapipe tries to force-install
 # opencv-contrib-python (GUI). By pre-installing the headless variant,
 # pip sees the opencv requirement as already met and skips the GUI version.
+opencv-contrib-python==4.11.0.86        ← GUI version installed by mediapipe
 opencv-contrib-python-headless==4.11.0.86
 
 # Core ML stack
